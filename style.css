@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 
 :root {
-    --purple: #528DE2;
-    --green: #15CDCB;
+    --purple: #C600BE;
+    --pink: #CD156D;
     --bg-dark: #212226;
     --light-grey: #E8DEDE;
 
@@ -57,7 +57,7 @@ header .container {
 }
 
 header .container h1 {
-    color: var(--green)
+    color: var(--pink)
 }
 
 header .container button {
@@ -76,12 +76,12 @@ nav {
 }
 
 nav img {
-    height: 45px;
+    height: 75px;
 }
 
 nav ul a {
     font-size: 24px;
-    color: var(--green);
+    color: var(--pink);
     text-decoration: none;
     margin: 0 30px;
 }
