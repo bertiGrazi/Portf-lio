@@ -5,6 +5,9 @@
     --green: #15CDCB;
     --bg-dark: #212226;
     --light: #E8DEDE;
+
+    --menu-height: 75px;
+
 }
 * {
     box-sizing: border-box;
@@ -43,7 +46,7 @@ button{
 }
 
 header {
-    height: 100vh;
+    height: calc(100vh - var(--menu-height));
     display: flex;
     align-items: center;
 }
@@ -60,4 +63,31 @@ header .container h1 {
 
 header .container button {
     margin-top: 40px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background: var(--bg-dark);
+    justify-content: space-between;
+    height: var(--menu-height);
+    padding: 0 100px;
+    position: sticky; /*Faz o menu ficar fixo quando da o scroll*/
+    top: 0; /*Faz o menu ficar fixo quando da o scroll*/
+}
+
+nav img {
+    height: 45px;
+}
+
+nav ul a {
+    font-size: 24px;
+    color: var(--green);
+    text-decoration: none;
+    margin: 0 30px;
+}
+
+section {
+    height: 1500px;
+    background: purple;
 }
