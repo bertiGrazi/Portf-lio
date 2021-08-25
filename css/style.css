@@ -4,12 +4,10 @@
     --purple: #C600BE;
     --pink: #CD156D;
     --bg-dark: #212226;
-    --light-grey: #E8DEDE;
+    --light: #E8DEDE;
 
     --menu-height: 75px;
 
-    /*testeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
-    /*Fazendo um teste */
 }
 * {
     box-sizing: border-box;
@@ -23,8 +21,6 @@ html, body {
 body, button, input, select, textarea {
     font-family: 'Poppins', sans-serif;
     color: var(--light-grey);
-
-     /*testeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
 }
 
 h1 {
@@ -47,13 +43,6 @@ button{
     padding: 8px 35px;
     font-weight: bold;
     font-size: 18px;
-
-     /*testeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
-       /*testeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
-         /*testeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
-           /*testeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
-             /*testeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
-               /*testeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
 }
 
 header {
