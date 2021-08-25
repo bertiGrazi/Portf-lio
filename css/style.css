@@ -20,7 +20,7 @@ html, body {
 
 body, button, input, select, textarea {
     font-family: 'Poppins', sans-serif;
-    color: var(--light-grey);
+    color: var(--light);
 }
 
 h1 {
